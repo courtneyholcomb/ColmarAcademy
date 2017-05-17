@@ -8,7 +8,13 @@ body {
   display: flex;
 }
 
+h3 {
+  border-radius: 5px;
+}
 
+h1, h2, h4, p {
+  color: 283044;
+}
 
 
 
@@ -17,6 +23,7 @@ body {
   justify-content: space-between;
   height: 64px;
   align-content: center;
+  background-color: #EBF5EE;
 }
 
 .logo {
@@ -55,7 +62,7 @@ nav span {
 /* main header section */
 .main-header {
   display: flex;
-  background-color: lightgrey;
+  background-color: #82A3A1;
 }
 
 .header-image {
@@ -73,16 +80,21 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   padding-right: 30px;
   max-width: 40%;
   padding-left: 16px;
 }
 
+.header-info span {
+  justify-content: center;
+}
+
 .header-info h3 {
-  background-color: darkgray;
+  background-color: #412745;
   width: 80%;
   text-align: center;
-  color: white;
+  color: #EBF5EE;
   padding: 8px 0;
 }
 
@@ -96,7 +108,8 @@ nav span {
 }
 
 .practice {
-  margin: 16px 0 32px 0;
+  padding: 16px 0 32px 0;
+  background-color: #EBF5EE;
 }
 
 .man-image {
@@ -167,7 +180,7 @@ nav span {
 .start-learning {
   display: block;
   text-align: center;
-  background-color: lightgrey;
+  background-color: #82A3A1;
   padding-top: 32px;
 }
 
@@ -190,7 +203,7 @@ nav span {
 .learning-box {
   width: 28%;
   margin: 16px;
-  background-color: white;
+  background-color: #EBF5EE;
   flex-direction: column;
 }
 
@@ -199,7 +212,7 @@ nav span {
 }
 
 .last {
-  background-color: lightgrey;
+  background-color: #82A3A1;
 }
 
 
@@ -207,6 +220,7 @@ nav span {
 /* thesis exhibit section */
 .thesis-exhibit {
   flex-direction: column;
+  background-color: #EBF5EE;
 }
 
 .thesis-title {
@@ -257,6 +271,7 @@ footer {
   justify-content: space-between;
   padding: 0 24px;
   height: 64px;
+  background-color: #EBF5EE;
 }
 
 
@@ -303,7 +318,7 @@ footer {
     background-color: darkgray;
     width: 80%;
     text-align: center;
-    color: white;
+    color: #EBF5EE;
     padding: 8px 0;
   }
 .sidebar {
