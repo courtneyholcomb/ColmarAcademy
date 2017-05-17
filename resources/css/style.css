@@ -9,6 +9,110 @@ body {
 }
 
 
+/* desktop styling cacellation media query*/
+@media only screen and (min-width: 480px) {
+  .mobile {
+    display: none;
+  }
+}
+
+
+
+/* mobile media query */
+@media only screen and (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    width: 100%;
+  }
+  .mobile nav {
+    justify-content: space-between;
+  }
+  .main-header-mobile {
+    flex-direction: column;
+    width: 100%;
+    background-color: #E6E6E6;
+  }
+  .main-header-mobile img {
+    max-width: 100%;
+  }
+  .header-info-mobile {
+    flex-direction: column;
+    padding: 0 18px;
+    background-color: #E6E6E6;
+  }
+  .header-info-mobile span {
+    justify-content: center;
+    display: flex;
+  }
+  .header-info-mobile h3 {
+    justify-content: center;
+    background-color: darkgray;
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding: 8px 0;
+  }
+.sidebar {
+  margin: 16px 16px 32px 16px;
+}
+.sidebar-box-mobile {
+  flex-direction: column;
+}
+.box-image-mobile {
+  max-width: 100%;
+  height: auto;
+}
+.box-image-mobile img {
+  max-width: 100%;
+  height: auto;
+}
+.box-info-mobile {
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.box-info-mobile p {
+  padding: 8px 0;
+  margin: 0;
+}
+.box-info-mobile h2 {
+  margin: 0;
+}
+.box-info-mobile a {
+  padding: 8px 0;
+}
+.start-learning-mobile {
+  flex-direction: column;
+}
+.start-learning-mobile h2 {
+  background-color: #E6E6E6;
+  color: #424242;
+  width: 80%;
+  margin: 0 16px 8px 16px;
+  padding: 16px;
+}
+.learning-title-mobile {
+  text-align: center;
+  margin: 32px 0 16px 0;
+}
+.thesis-title-mobile {
+  justify-content: center;
+}
+.thesis-video-mobile {
+  max-width: 100%;
+  height: auto;
+}
+.thesis-video-mobile video {
+  max-width: 100%;
+  height: auto;
+}
+
+}
 
 
 
